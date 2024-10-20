@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'fuente1';
+    src: url(font/RobotoCondensed-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'fuente2';
+    src: url(font/RobotoCondensed-VariableFont_wght.ttf);
+}
+html{
+    font-family: 'fuente2';
+    font-size: 19px;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: rgba(24, 112, 24, 0.6);
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+
+header a{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 9px;  
+}
+
+main{
+    background-color: rgb(187, 187, 187);
+    padding: 200px 60px 50px;
+}
+
+img{
+    width: 100%;
+}
+
+.logo img{
+    width: 15%;
+}
+
+footer{
+    background-color: rgba(24, 112, 24, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 10%;
+}
