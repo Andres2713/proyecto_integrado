@@ -34,9 +34,10 @@ header{
 
 header a{
     background-color: rgb(255, 255, 255);
-    padding: 8px;
-    text-decoration: none;
+    padding: 10px;
+    text-decoration:none;
     border-radius: 9px;
+    margin: 5px;
 }
 
 main{
@@ -49,12 +50,19 @@ main{
 }
 
 footer{
-    background-color: rgba(24, 112, 24, 0.6);
+    background-image: url(imagenes/fondo_header.jpg);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer a{
+    color: white;
 }
 
 footer img{
-    width: 10%;
+    width: 8%;
 }
