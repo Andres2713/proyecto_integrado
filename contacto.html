@@ -5,19 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BELPLÁSTICOS S.A.S</title>
     <link rel="shortcut icon" href="imagenes/Imagotipo_White.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="imagenes/Insta_logo_White.png" alt="BELPLASTICOS">
         </div>
-        <a href="index.html">INICIO</a>
+        <a href="index.html" target="_blank">INICIO</a>
         <a href="productos.html" target="_blank">PRODUCTOS</a>
-        <a href="contacto.html" target="_blank">CONTACTO</a>
+        <a href="contacto.html">CONTACTO</a>
         <a href="empleados.html" target="_blank">INGRESO EMPLEADOS</a>
     </header>
-    <main></main>
+    <main>
+        <section>
+            <h2>Deja tu consulta</h2>
+            <form action="" autocomplete="off">
+                <label for="lnom">Nombre Completo</label>
+                <br>
+                <input type="text" name="nombre" id="lnom" autocomplete="off" maxlength="100">
+                <br>
+                <label for="lemail">Correo electronico</label>
+                <br>
+                <input type="email" name="lemail" id="lemail" autocomplete="off">
+                <br>
+                <label for="lcelular">Celular</label>
+                <br>
+                <input type="tel" name="lcelular" id="lcelular" autocomplete="off" maxlength="10" pattern="[0-9]{10}">
+                <br>
+                <label for="lmensaje">consulta</label>
+                <br>
+                <textarea name="mensaje" id="lmensaje" cols="70" rows="15" placeholder="Dejanos tu consulta"></textarea>
+            </form>
+        </section>
+    </main>
     <footer>
         <div class="footer1">
             <p>Todos los derechos reservados</p>
