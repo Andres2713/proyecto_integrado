@@ -13,12 +13,14 @@
     font-family: 'fuente2';
     src: url(font/RobotoCondensed-VariableFont_wght.ttf);
 }
+
 html{
     font-family: 'fuente2';
     font-size: 19px;
     width: 100%;
     height: 100%;
 }
+
 img{
     width: 100%;
 }
@@ -29,6 +31,7 @@ header{
     display: flex;
     align-items: center;
     position: fixed;
+    position: absolute fixed;
 }
 
 
@@ -47,6 +50,7 @@ header a{
 main{
     background-color: rgb(187, 187, 187);
     padding: 150px 60px 50px;
+    text-align: center;
 }
 
 footer{

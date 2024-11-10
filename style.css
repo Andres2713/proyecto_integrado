@@ -15,7 +15,7 @@
 }
 html{
     font-family: 'fuente2';
-    font-size: 19px;
+    font-size: 20px;
     width: 100%;
     height: 100%;
 }
@@ -49,6 +49,27 @@ main{
     padding: 150px 60px 50px;
 }
 
+main .somos{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(4, 75, 7, 0.2);
+    border: 2px solid rgb(2, 31, 11);
+}
+
+main .tres_columnas{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .tres_columnas .colum3{
+    border: 2px solid rgb(2, 31, 11);
+    background-color: rgba(4, 75, 7, 0.2);
+}
+
 footer{
     background-image: url(imagenes/fondo_header.jpg);
     color: white;
@@ -65,4 +86,11 @@ footer a{
 
 footer img{
     width: 8%;
+}
+
+@media screen and (max-width: 800px) {
+    main .tres_columnas{
+        
+        grid-template-columns: 1fr;
+    }
 }
