@@ -15,7 +15,7 @@
 }
 html{
     font-family: 'fuente2';
-    font-size: 20px;
+    font-size: 19px;
     width: 100%;
     height: 100%;
 }
@@ -34,19 +34,23 @@ header{
 
 header a{
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    color: black;
+    padding: 20px;
     text-decoration:none;
     border-radius: 9px;
     margin: 5px;
+    width: 30%;
+    text-align: center;
 }
 
 .logo img{
-    width: 15%;
+    width: 20%;
 }
 
 main{
     background-color: rgb(187, 187, 187);
     padding: 150px 60px 50px;
+    font-size: 24px;
 }
 
 main .somos{

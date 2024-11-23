@@ -34,19 +34,43 @@ header{
 
 header a{
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    color: black;
+    padding: 20px;
     text-decoration:none;
     border-radius: 9px;
     margin: 5px;
+    width: 30%;
+    text-align: center;
 }
 
+
 .logo img{
-    width: 15%;
+    width: 20%;
 }
 
 main{
     background-color: rgb(187, 187, 187);
     padding: 150px 60px 50px;
+    font-size: 25px;
+}
+
+main .contacto{
+    display: flex;
+    gap: 20px;
+}
+
+main .contacto .contacto1 img{
+    width: 8%;
+}
+
+main .contacto .contacto1 ul{
+    list-style: none;
+    
+}
+
+main .contacto .contacto1 ul a{
+    text-decoration: none;
+    color: black;
 }
 
 footer{
