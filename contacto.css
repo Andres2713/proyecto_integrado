@@ -73,6 +73,28 @@ main .contacto .contacto1 ul a{
     color: black;
 }
 
+main .contacto .contacto1 .almacen{
+    width: 90%;
+}
+
+main .contacto .contacto2 .control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main .contacto .contacto2 .control2{
+    border-radius: 5px;
+}
+
+main .contacto .contacto2 .botons{
+    width: 50%;
+    background-color: rgb(15, 82, 9);
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+}
+
 footer{
     background-image: url(imagenes/fondo_header.jpg);
     color: white;
